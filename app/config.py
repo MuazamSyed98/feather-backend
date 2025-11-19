@@ -14,3 +14,6 @@ def load_config(app):
 
     app.config["PERSIST_MODE"] = os.getenv("PERSIST_MODE", "files").lower()
     app.config["DATA_DIR"] = os.getenv("DATA_DIR", "./data")
+
+    # NEW: Neon/Postgres connection string
+    app.config["DATABASE_URL"] = os.getenv("DATABASE_URL")

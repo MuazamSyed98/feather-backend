@@ -1,0 +1,19 @@
+# Do NOT ignore .env — keep it included
+!.env
+
+# Ignore typical junk files
+.git
+.gitignore
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.envrc
+
+# Ignore local virtual environment
+.venv/
+venv/
+
+# Ignore node stuff if present (just in case)
+node_modules/
