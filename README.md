@@ -43,3 +43,8 @@ app/__init__.py -- Builds the flask app, loads the settings, enables CORS and re
     - config.py --> loads env
     - extensions.py --> initializes CORS and repository
     - api/__init__.py --> connects your endpoints(routes)
+
+
+*****UPDATE:
+
+added dependencies and docstrings to make sure Swagger is integrated into the backend endpoints.
